@@ -1,0 +1,361 @@
+/* General Styling */
+.about-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Header Section */
+.about-header {
+  background-color: #e8f5e9;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #388e3c;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* About Content Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.about-description {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  max-width: 50%;
+}
+
+.about-description h2 {
+  font-size: 2rem;
+  color: #388e3c;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-description p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Image Section */
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Creative Feature Section */
+.about-creative-features {
+  margin-top: 30px;
+  padding: 40px 20px;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-creative-features h2 {
+  font-size: 2.2rem;
+  color: #388e3c;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+/* Gallery.css */
+
+.gallery-container {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f5fff5, #eaffea); /* soft green bg */
+  text-align: center;
+  min-height: 100vh;
+}
+
+.gallery-container h2 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.gallery-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.gallery-card h3 {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+.gallery-card p {
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.gallery-card strong {
+  font-size: 1rem;
+  color: #1b5e20;
+}
+
+/* Feature Items */
+.feature-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: inline-block;
+  max-width: 220px;
+  font-size: 1rem;
+  color: #555;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+.feature-item i {
+  font-size: 2rem;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  color: #388e3c;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #28a745; /* Green button */
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; /* Remove underline from links */
+  margin-top: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1b5e20;
+  }
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  /* Add a default font-family */
+  }
+  
+
+
+  /* General styles for the dashboard background */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #e6f7e6, #ccffcc);
+}
+
+/* Container for alignment and spacing */
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1200px;
+}
+
+
+  /* Additional navbar-specific styles (optional) */
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .dashboard-container {
+    margin-top: 20px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .carousel {
+    height: 87vh; /* Fixed height for carousel */
+    overflow: hidden; /* Hide overflow to prevent images from spilling */
+    position: relative; /* Position the paragraph absolutely inside the carousel */
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Ensure the inner content takes the full height of the carousel */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Ensure the item takes up the full height of the carousel */
+  }
+  
+  .carousel-img {
+    height: 100%; /* Make the image fill the full height */
+    width: 100%; /* Ensure the image covers the full width */
+    object-fit: cover; /* Ensure the image covers the area and doesn't stretch */
+  }
+  
+  /* Paragraph (caption) styles */
+  .carousel-caption {
+     /* Transparent background for the caption */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 39%; /* Set a fixed width for the paragraph */
+    position: absolute;
+    top: 50%; /* Position the paragraph in the center of the screen */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ensure the caption is centered horizontally and vertically */
+    text-align: center;
+  }
+
+/* App.css */
+
+/* Adjust dropdown to open downward */
+.dropdown-menu {
+  position: absolute; /* Ensure it's positioned relative to the parent element */
+  top: 100%; /* Opens directly below the dropdown trigger */
+  left: 0; /* Align it horizontally with the dropdown trigger */
+  z-index: 1050; /* Ensure it appears above other elements */
+  display: block; /* Make sure it's visible */
+  max-height: 300px; /* Optional: Limit the height if needed */
+  overflow-y: auto; /* Optional: Add a scroll bar if the content exceeds the height */
+}
+.learn-more-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #28a745; /* Green button */
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; /* Remove underline from links */
+  margin-top: 20px;
+}

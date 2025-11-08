@@ -1,0 +1,79 @@
+/* Apply background image and settings for the entire page */
+.login-container {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/019/925/387/non_2x/lettuce-plant-on-field-vegetable-and-agriculture-sunset-and-light-free-photo.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+}
+
+/* Styles for the form with dark transparent green */
+.login-form {
+  background-color: rgba(0, 128, 0, 0.6); /* Darker transparent green (slightly less transparent) */
+  border-radius: 10px;
+  width: 30%; /* Adjust width as needed */
+  padding: 30px;
+}
+
+/* Style the input fields */
+.login-form .form-control {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  color: black; /* Set input text color to black */
+}
+
+/* Style the labels */
+.login-form .form-group label {
+  font-size: 1.1rem;
+  color: black; /* Set label text color to black */
+}
+
+/* Style the submit button */
+.login-form .btn-success {
+  background-color: #28a745; /* Green color for button */
+  border-color: #28a745; /* Same green for border */
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* Dropdown options on focus */
+.login-form select.form-control option:focus {
+  background-color: #28a745; /* Green background when focused */
+  color: white; /* White text on focus */
+}
+
+/* Change the background color of the dropdown options on hover */
+.login-form select.form-control option:hover {
+  background-color: #28a745; /* Green color when hovering */
+  color: white; /* White text when hovering */
+}
+
+/* Style the text link */
+.login-form .text-center p a {
+  color: white; /* Set text link color to white */
+}
+
+/* Additional styling for the page */
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Adjust the form container for both login and signup */
+.login-container .login-form {
+  max-width: 400px; /* Ensures the form doesn't stretch too much */
+  width: 100%;
+}
+
+/* Responsive design: Center the form properly on smaller screens */
+@media (max-width: 767px) {
+  .login-form {
+      width: 80%; /* Adjust form width on smaller screens */
+      padding: 20px;
+  }
+}

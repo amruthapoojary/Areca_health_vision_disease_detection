@@ -1,0 +1,111 @@
+/* General Gallery Styling */
+/* General Gallery Styling */
+.gallery-section {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9); /* Light green gradient */
+  font-family: Arial, sans-serif;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  color: #2e7d32; /* Dark green */
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+  border: 2px solid #a5d6a7; /* Soft green */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+.gallery-item img {
+  width: 300px;  /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover;  /* Ensures the image covers the box without distortion */
+  border-bottom: 2px solid #2e7d32; /* Dark green */
+}
+
+.gallery-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background: #2e7d32; /* Dark green */
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.gallery-button:hover {
+  background: #1b5e20; /* Deeper green */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Transparent dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.crop-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.crop-name {
+  font-size: 1.5rem;
+  color: #2e7d32; /* Dark green */
+  margin-bottom: 10px;
+}
+
+.crop-description {
+  font-size: 1rem;
+  color: #4caf50; /* Medium green */
+  margin-bottom: 20px;
+}
+
+.close-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #2e7d32; /* Dark green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: #1b5e20; /* Deeper green */
+}

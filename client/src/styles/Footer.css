@@ -1,0 +1,26 @@
+/* Footer styling */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the content */
+    padding: 6px 0; /* Reduced padding for a smaller height */
+    position: relative; /* For better positioning */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Set font size */
+  }
+  
+  .footer a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    color: #d1d1d1; /* Hover effect for links */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

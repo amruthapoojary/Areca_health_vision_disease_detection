@@ -1,0 +1,10 @@
+# Ignore dataset and big image files
+dataset/
+*.jfif
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.tar
+*.7z
+*.rar

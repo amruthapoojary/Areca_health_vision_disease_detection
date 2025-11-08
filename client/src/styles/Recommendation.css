@@ -1,0 +1,107 @@
+.recommendation-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2b3c2b;
+}
+
+.disease-description {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.recommendation-card {
+  background-color: #f5fff5;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recommendation-card h3 {
+  margin-top: 1rem;
+  color: #245d24;
+}
+
+.recommendation-card p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.recommendation-card a {
+  text-decoration: none;
+  color: #2d8c2d;
+  font-weight: bold;
+}
+.recommendation-card a:hover {
+  text-decoration: underline;
+}
+.recommendation-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  transform: translateZ(0); /* improves performance for GPU acceleration */
+}
+
+.recommendation-card:hover {
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+/* Optional: subtle hover effect for the buy link */
+.recommendation-card a:hover {
+  text-decoration: underline;
+  color: #2e7d32; /* dark green or your theme color */
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 cards per row */
+  gap: 2rem;
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: 230px; /* increase height for rectangular shape */
+  object-fit: contain; /* shows full image without cropping */
+  border-radius: 8px;
+  background-color: white; /* optional: white bg in case image has transparency */
+}
+.back-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: #28a745; /* ✅ Green */
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #218838; /* Darker green */
+  transform: scale(1.05);
+}
+

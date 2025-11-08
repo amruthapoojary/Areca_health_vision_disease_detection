@@ -1,0 +1,232 @@
+{
+  "about_title": "About Us",
+  "about_topic": "Arecanut Disease Detection System",
+  "about_description": "Our Arecanut Disease Detection System is an AI-powered web platform designed to assist farmers, researchers, and agricultural experts in identifying and managing diseases affecting arecanut crops.",
+  "features_title": "Features of Our System",
+  "feature_1": "Real-time Disease Detection",
+  "feature_1_desc": "Upload images of arecanut plants and get instant disease identification using our AI model.",
+  "feature_2": "Treatment Suggestions",
+  "feature_2_desc": "Get recommended pesticides, fungicides, and preventive measures based on the identified disease.",
+  "feature_3": "Explainable AI",
+  "feature_3_desc": "Development of a Smart Hat integrated with a camera to detect arecanut diseases.",
+  "feature_4": "Disease Knowledge Base",
+  "feature_4_desc": "Explore a static gallery of common arecanut diseases and learn how to recognize and treat them.",
+  "carousel_1_title": "Unlock Smart Arecanut Disease Detection",
+  "carousel_1_desc": "Discover how to optimize crop protection and yield with advanced AI-based diagnostics.",
+  "carousel_1_btn": "Learn More",
+  "carousel_2_title": "Disease Detection & Recommendation",
+  "carousel_2_desc": "Use a smart wearable or your mobile to capture plant symptoms for real-time diagnosis.",
+  "carousel_3_title": "Smart Hat / Mobile Photo Upload",
+  "carousel_3_desc": "Upload images of arecanut plants and get expert treatment suggestions instantly.",
+  "gallery_title": "Arecanut Disease Gallery",
+  "Treatment": "Treatment",
+  "disease1_name": "Fruit Rot",
+  "disease1_desc": "This disease affects the fruit causing it to rot and fall prematurely.",
+  "disease1_treatment": "Apply Bordeaux mixture (1%) or copper oxychloride (0.25%).",
+  "disease2_name": "Yellow Leaf Disease",
+  "disease2_desc": "Irregular yellow lesions develop on leaves.",
+  "disease2_treatment": "Spray fungicides like carbendazim or mancozeb at 0.2% concentration.",
+  "disease3_name": "Stem Bleeding",
+  "disease3_desc": "Dark brown patches and bleeding on stem surface.",
+  "disease3_treatment": "Scrape the affected area and apply Bordeaux paste or coal tar.",
+  "Login": "Login",
+  "Email": "Email",
+  "Password": "Password",
+  "LOGIN": "LOGIN",
+  "Don't have an account?": "Don't have an account?",
+  "Sign up": "Sign up",
+  "Sign Up": "Sign Up",
+  "Email": "Email",
+  "Password": "Password",
+  "SIGN UP": "SIGN UP",
+  "Already have an account?": "Already have an account?",
+  "Login": "Login",
+  "logo": "ARECA VISION",
+  "Logout": "Logout",
+  "Scan Arecanut Image": "Scan Arecanut Image",
+  "Select Disease Type:": "Select Disease Type:",
+  "Stem": "Stem",
+  "Fruit": "Fruit",
+  "Leaf": "Leaf",
+  "Detect Disease": "Detect Disease",
+  "Detecting": "Detecting...",
+  "Show Recommendation": "Show Recommendation",
+  "Please select an image first.": "Please select an image first.",
+  "Server error: Could not process the image.": "Server error: Could not process the image.",
+  "Prediction failed. No prediction returned.": "Prediction failed. No prediction returned.",
+  "Could not connect to the Flask server.": "Could not connect to the Flask server.",
+  "Diseased Stem Detected": "Diseased Stem Detected",
+  "Stem is Healthy": "Stem is Healthy",
+  "Diseased Fruit Detected": "Diseased Fruit Detected",
+  "Fruit is Healthy": "Fruit is Healthy",
+  "Diseased Leaf Detected": "Diseased Leaf Detected",
+  "Leaf is Healthy": "Leaf is Healthy",
+    "home": "HOME",
+    "gallery": "GALLERY",
+    "about": "ABOUT",
+    "login": "LOGIN",
+  "login_title": "Login",
+  "signup_title": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "login_btn": "LOGIN",
+  "signup_btn": "SIGN UP",
+  "dont_have_account": "Don't have an account? Sign up",
+  "already_have_account": "Already have an account? Login",
+  "scan_image": "📸 Scan Arecanut Image",
+  "select_disease_type": "Select Disease Type",
+  "Stem": "Stem",
+  "Fruit": "Fruit",
+  "Leaf": "Leaf",
+  "Detect Disease": "Detect Disease",
+  "Detecting": "Detecting...",
+  "Show Recommendation": "Show Recommendation",
+  "Logout": "Logout",
+  "Server error: Could not process the image.": "Server error: Could not process the image.",
+  "Prediction failed. No prediction returned.": "Prediction failed. No prediction returned.",
+  "Could not connect to the Flask server.": "Could not connect to the Flask server.",
+  "Diseased Stem Detected": "Diseased Stem Detected",
+  "Stem is Healthy": "Stem is Healthy",
+  "Diseased Fruit Detected": "Diseased Fruit Detected",
+  "Fruit is Healthy": "Fruit is Healthy",
+  "Diseased Leaf Detected": "Diseased Leaf Detected (Yellow Leaf)",
+  "Leaf is Healthy": "Leaf is Healthy",
+  "disease_1_name": "Fruit Rot",
+  "disease_1_desc": "This disease affects the fruit causing it to rot and fall prematurely.",
+  "disease_1_treatment": "Apply Bordeaux mixture (1%) or copper oxychloride (0.25%).",
+  "disease_2_name": "Yellow leaf disease",
+  "disease_2_desc": "Irregular yellow lesions develop on leaves.",
+  "disease_2_treatment": "Spray fungicides like carbendazim or mancozeb at 0.2% concentration.",
+  "disease_3_name": "Stem Bleeding",
+  "disease_3_desc": "Dark brown patches and bleeding on stem surface.",
+  "disease_3_treatment": "Scrape the affected area and apply Bordeaux paste or coal tar.",
+  "disease_4_name": "Bud Rot",
+  "disease_4_desc": "The central shoot decays and the spindle withers and falls.",
+  "disease_4_treatment": "Remove infected parts and spray 1% Bordeaux mixture or mancozeb.",
+  "navbar": {
+    "logo": "ARECA VISION",
+    "home": "HOME",
+    "gallery": "GALLERY",
+    "about": "ABOUT",
+    "login": "LOGIN"
+  },
+  "recommendation": {
+    "back": "Back",
+    "title": "Yellow Leaf Disease – Recommendation",
+    "description": "Yellow Leaf Disease is a major issue in arecanut, often caused by fungal infections and nutrient deficiencies (mainly potassium and magnesium). Leaves turn yellow prematurely, reducing yield and weakening the tree if untreated.",
+    "play_audio": "🔊 Play Audio",
+    "pause_audio": "🔇 Pause Audio",
+    "cards": {
+      "urea": {
+        "title": "Urea (Nitrogen Fertilizer)",
+        "description": "Apply 50g per palm once a month to improve leaf greenness and overall plant vigor.",
+        "link": "Buy on TradeIndia"
+      },
+      "potassium": {
+        "title": "Potassium Sulfate (K2SO4)",
+        "description": "Apply 25g per plant monthly to correct potassium deficiency and strengthen leaves.",
+        "link": "Buy on Mystore"
+      },
+      "magnesium": {
+        "title": "Magnesium Sulfate (Epsom Salt)",
+        "description": "Dissolve 20g in 1L water and spray on leaves every 15 days to correct magnesium deficiency.",
+        "link": "Buy on Meesho"
+      },
+      "neem": {
+        "title": "Neem Extract (Bio-fungicide)",
+        "description": "Spray 3–5 ml per liter water as preventive during rainy season.",
+        "link": "Buy on AgriPlus"
+      },
+      "micronutrient": {
+        "title": "Micronutrient Mix",
+        "description": "Apply near root zone to correct minor deficiencies (Fe, Zn, Mn) which support leaf health.",
+        "link": "Buy on AgriBegri"
+      },
+      "npk": {
+        "title": "Balanced NPK Fertilizer",
+        "description": "Use 50g per plant monthly to maintain overall nutrition balance and support recovery from Yellow Leaf.",
+        "link": "Buy on Flipkart"
+      }
+    }
+  },
+  "back": "Back",
+  "audio": {
+    "play": "🔊 Play Audio",
+    "pause": "🔇 Pause Audio"
+  },
+  "stem_bleeding": {
+    "title": "Stem Bleeding Disease – Recommendation",
+    "description": "Stem bleeding is a serious fungal disease in arecanut caused by",
+    "cards": {
+      "card1": {
+        "title": "Tricyclazole 75% WP",
+        "desc": "Mix 2g in 1L of water and spray around the stem once every 15 days."
+      },
+      "card2": {
+        "title": "Copper Oxychloride",
+        "desc": "Apply 3g in 1L water. Use brush or sprayer to treat the affected stem."
+      },
+      "card3": {
+        "title": "Bordeaux Paste",
+        "desc": "Apply directly to the infected area once every week."
+      },
+      "card4": {
+        "title": "Trichoderma viride",
+        "desc": "Mix in FYM and apply near roots monthly."
+      },
+      "card5": {
+        "title": "Neem Cake",
+        "desc": "Use 250g per plant twice a year to prevent recurrence."
+      },
+      "card6": {
+        "title": "Fungicide Mix Combo",
+        "desc": "Use as per label. Suitable for broad treatment."
+      }
+    }
+  },
+  "buy": {
+    "indiamart": "Buy on Indiamart",
+    "agribegri": "Buy on AgriBegri",
+    "katyayani": "Buy on Katyayani",
+    "flipkart": "Buy on Flipkart",
+    "plantcare": "Buy on Plantcare"
+  }
+,
+  "common": {
+    "back": "Back",
+    "play_audio": "🔊 Play Audio",
+    "pause_audio": "🔇 Pause Audio",
+    "buy": "Buy"
+  },
+  "fruit_rot": {
+    "title": "Fruit Rot Disease – Recommendation",
+    "description": "Fruit rot (Koleroga) is caused by",
+    "description2": "It causes rotting and premature dropping of arecanut fruits, especially during the monsoon. Early treatment can prevent heavy losses.",
+    "card1": {
+      "title": "Bordeaux Mixture (1%)",
+      "desc": "Spray 1% Bordeaux mixture on bunches and crown region before and during monsoon."
+    },
+    "card2": {
+      "title": "Metalaxyl + Mancozeb (Ridomil Gold)",
+      "desc": "Mix 2.5g per liter of water and spray on bunches every 25 days during monsoon."
+    },
+    "card3": {
+      "title": "Phosphorus Acid 40%",
+      "desc": "Drench the soil around roots (10 ml/L water) to protect from root infection."
+    },
+    "card4": {
+      "title": "Trichoderma harzianum",
+      "desc": "Mix with FYM and apply near roots at onset of monsoon."
+    },
+    "card5": {
+      "title": "Neem Extract (Bio-fungicide)",
+      "desc": "Spray 3–5 ml per liter water as preventive during rainy season."
+    },
+    "card6": {
+      "title": "Mancozeb 75% WP",
+      "desc": "Spray 2g per liter water on bunches every 20–25 days during infection period."
+    }
+  }
+
+  
+}

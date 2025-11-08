@@ -1,0 +1,84 @@
+.scan-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #e6f4ea;
+  box-shadow: 0 4px 15px rgba(0, 80, 30, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #145214;
+}
+
+.scan-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #1b4d1b;
+}
+
+.scan-container input[type="file"] {
+  border: 1px solid #91c788;
+  padding: 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  margin: 1rem 0;
+}
+
+.scan-container input[type="file"]:hover {
+  border-color: #3a8a31;
+}
+
+.scan-container button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #3a8a31;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scan-container button:hover {
+  background-color: #1f4e1b;
+}
+
+/* Style for recommendation button */
+.recommend-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #1a4301;  /* before hover - dark green */
+  color: #ffffff;            /* white text for contrast */
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.recommend-btn:hover {
+  background-color: #538d22; /* after hover - lighter green */
+}
+
+
+/* Logout button fixed at top-right */
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #d9534f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c9302c;
+}
