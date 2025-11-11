@@ -24,28 +24,28 @@ transform = transforms.Compose([
 
 # Part detection model
 model_part = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=4)
-model_part.load_state_dict(torch.load("models/model_part.pth", map_location=device))
+model_part.load_state_dict(torch.load("models/part_classifier_best.pth", map_location=device))
 model_part.to(device)
 model_part.eval()
-part_classes = ['Fruit', 'Leaf', 'not_areca', 'Trunk']
+part_classes = ['Fruit', 'Leaf', 'Trunk', 'not_areca']
 
 # Leaf disease model
 model_leaf = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-model_leaf.load_state_dict(torch.load("models/leaf_disease_model.pth", map_location=device))
+model_leaf.load_state_dict(torch.load("models/best_leaf_model.pth", map_location=device))
 model_leaf.to(device)
 model_leaf.eval()
 leaf_classes = ['Healthy_Leaf', 'Yellow_leaf_disease']
 
 # Fruit disease model
 model_fruit = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-model_fruit.load_state_dict(torch.load("models/fruit_disease_model.pth", map_location=device))
+model_fruit.load_state_dict(torch.load("models/best_fruit_model.pth", map_location=device))
 model_fruit.to(device)
 model_fruit.eval()
 fruit_classes = ['Fruit_rot', 'Healthy_Fruit']
 
 # Trunk disease model
 model_trunk = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-model_trunk.load_state_dict(torch.load("models/trunk_disease_model.pth", map_location=device))
+model_trunk.load_state_dict(torch.load("models/best_trunk_model.pth", map_location=device))
 model_trunk.to(device)
 model_trunk.eval()
 trunk_classes = ['Healthy_Trunk', 'Stem_bleeding']
@@ -84,10 +84,10 @@ def predict_areca_health(image_path):
     else:
         disease, conf = "Unknown", 0
 
-    print(f"Step 2: Predicted Disease: {disease} ({conf:.2f}%)")
+    print(f"Step 2: Prediction : {disease} ({conf:.2f}%)")
 
     return {
-        "part": part,
+       "part": part,
         "part_confidence": part_conf,
         "condition": disease,
         "condition_confidence": conf
@@ -98,6 +98,6 @@ def predict_areca_health(image_path):
 # 5. Test example
 # ------------------------------------------------
 if __name__ == "__main__":
-    image_path = "C:\Users\admin\OneDrive\Pictures\yellow leaf.jfif"
+    image_path = "C:/major_project/archive/archive/final_testing-20230830T042904Z-001/final_testing/yellow leaf disease/yellow leaf disease_original_IMG_20230820_102826.jpg_997d18c4-b299-45c5-a310-5754c682b671.jpg"
     result = predict_areca_health(image_path)
     print("\nFinal Prediction:", result)
