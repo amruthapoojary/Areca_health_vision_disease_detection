@@ -98,6 +98,6 @@ def predict_areca_health(image_path):
 # 5. Test example
 # ------------------------------------------------
 if __name__ == "__main__":
-    image_path = "yellow leaf disease_original_94.jpg_062babd4-3f30-4f79-a2a4-78692dc197a9.jpg"
+    image_path = "C:\Users\admin\OneDrive\Pictures\yellow leaf.jfif"
     result = predict_areca_health(image_path)
     print("\nFinal Prediction:", result)
