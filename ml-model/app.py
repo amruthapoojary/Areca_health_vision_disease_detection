@@ -33,25 +33,25 @@ models = {}
 
 # Part Detection Model
 models['part'] = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=4)
-models['part'].load_state_dict(torch.load('models/model_part.pth', map_location=device))
+models['part'].load_state_dict(torch.load('models/part_classifier_best.pth', map_location=device))
 models['part'].to(device).eval()
 part_classes = ['Fruit', 'Leaf', 'Trunk', 'not_areca']
 
 # Leaf Disease Model
 models['leaf'] = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-models['leaf'].load_state_dict(torch.load('models/leaf_disease_model.pth', map_location=device))
+models['leaf'].load_state_dict(torch.load('models/best_leaf_model.pth', map_location=device))
 models['leaf'].to(device).eval()
 leaf_classes = ['Healthy_Leaf', 'Yellow_leaf_disease']
 
 # Fruit Disease Model
 models['fruit'] = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-models['fruit'].load_state_dict(torch.load('models/fruit_disease_model.pth', map_location=device))
+models['fruit'].load_state_dict(torch.load('models/best_fruit_model.pth', map_location=device))
 models['fruit'].to(device).eval()
 fruit_classes = ['Fruit_rot', 'Healthy_Fruit']
 
 # Trunk Disease Model
 models['trunk'] = timm.create_model('deit3_small_patch16_224', pretrained=False, num_classes=2)
-models['trunk'].load_state_dict(torch.load('models/trunk_disease_model.pth', map_location=device))
+models['trunk'].load_state_dict(torch.load('models/best_trunk_model.pth', map_location=device))
 models['trunk'].to(device).eval()
 trunk_classes = ['Healthy_Trunk', 'Stem_bleeding']
 
