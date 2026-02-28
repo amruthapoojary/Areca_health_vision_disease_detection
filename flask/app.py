@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 import os, time
 
 app = Flask(__name__)
-SAVE_DIR = r"D:\user\Amrutha023\arecanut-disease-detection\flask\images"
+SAVE_DIR = r"D:\Amrutha\arecanut-disease-detection\flask\images"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 @app.route('/upload', methods=['POST'])

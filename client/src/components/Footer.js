@@ -6,7 +6,7 @@ const Footer = () => {
     "footer",
     { className: "footer" },
     
-    React.createElement("p", null, "© 2024 Areca Vision. All rights reserved.")
+    React.createElement("p", null, "© 2025 Areca Vision. All rights reserved.")
   );
 };
 
